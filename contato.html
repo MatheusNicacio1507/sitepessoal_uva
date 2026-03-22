@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"> <!--biblioteca dos icones -->
+    <title>Contato</title>
+</head>
+
+<body>
+
+    <nav id="menu">
+        <ul class="menu-lista">
+            <li class="item-menu"><a href="index.html">Home</a></li>
+            <li class="item-menu"><a href="sobre.html">Sobre</a></li>
+            <li class="item-menu"><a href="projetos.html">Projetos</a></li>
+            <li class="item-menu"><a href="novidades.html">Novidades</a></li>
+            <li class="item-menu"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="container">
+        <div class="conteudo">
+            <h1 class="titulo">Contato</h1>
+            <div style="width: 180px; height: 4px; background-color: #e7eb90; margin-top: 8px;"></div>
+
+            <section class="contato">
+
+                <div class="topo-contato">
+                    <form class="form">
+
+                        <div class="grupo-input">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" placeholder="Digite seu nome" maxlength="50" required>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="Digite seu e-mail" maxlength="80" required>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem..." maxlength="300" required></textarea>
+                        </div>
+
+                        <button type="submit">Enviar mensagem</button>
+
+                    </form>
+
+                    <div class="imagem-contato">
+                        <img src="img/contato.png">
+                    </div>
+                </div>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/matheus.nic/" target="_blank" class="social-item">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/matheus-santos-nicacio/" target="_blank" class="social-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://github.com/MatheusNicacio1507" target="_blank" class="social-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer id="rodape">
+        <p class="rodape-texto">Matheus Santos Nicacio © - Veiga de Almeida - 2026 - Desenvolvimento Web </p>
+    </footer>
+
+</body>
+
+</html>
